@@ -1,7 +1,10 @@
 import Benefits from "@/components/Benefits";
+import CTA from "@/components/CTA";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -35,6 +38,9 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Benefits />
+      {/* <Testimonials /> */}
+      <CTA />
+      <Footer />
     </main>
   );
 }
