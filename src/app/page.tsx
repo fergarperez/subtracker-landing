@@ -1,3 +1,4 @@
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
@@ -29,6 +30,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
+      <Features />
     </main>
   );
 }
