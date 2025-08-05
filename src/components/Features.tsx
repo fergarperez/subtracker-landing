@@ -1,4 +1,4 @@
-import { Bell, BarChart3, Shield, Smartphone, Users, Zap } from "lucide-react";
+import { Bell, BarChart3, Shield, Smartphone } from "lucide-react";
 
 const features = [
   {
