@@ -50,12 +50,6 @@ export default function Header() {
             >
               Benefits
             </button>
-            <button
-              onClick={() => scrollToSection("testimonials")}
-              className="text-gray-600 hover:text-orange-600 transition-colors duration-200"
-            >
-              Testimonials
-            </button>
           </nav>
 
           {/* CTA Button */}

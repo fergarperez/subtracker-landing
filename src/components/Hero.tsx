@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-10   bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-400/10 via-amber-400/10 to-yellow-400/10" />
@@ -51,10 +51,6 @@ export default function Hero() {
               <div className="text-center">
                 <div className="text-2xl font-bold text-amber-600">98%</div>
                 <div className="text-sm text-gray-500">On-time payments</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-yellow-600">50K+</div>
-                <div className="text-sm text-gray-500">Active users</div>
               </div>
             </div>
 
