@@ -5,7 +5,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -46,9 +45,6 @@ export default function Home() {
         </div>
         <div id="benefits">
           <Benefits />
-        </div>
-        <div id="testimonials">
-          <Testimonials />
         </div>
         <CTA />
         <Footer />

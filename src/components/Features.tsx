@@ -56,10 +56,10 @@ export default function Features() {
             return (
               <div
                 key={index}
-                className="group p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:shadow-xl hover:shadow-orange-100/50 transition-all duration-300 hover:-translate-y-1"
+                className="group p-8 rounded-2xl bg-white border-2 border-gray-200 shadow-lg hover:shadow-2xl hover:shadow-orange-200/30 hover:border-orange-300 transition-all duration-300 hover:-translate-y-2"
               >
                 <div
-                  className={`inline-flex p-3 rounded-xl bg-gradient-to-r ${feature.color} mb-6 group-hover:scale-110 transition-transform duration-300`}
+                  className={`inline-flex p-3 rounded-xl bg-gradient-to-r ${feature.color} mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg`}
                 >
                   <Icon className="w-6 h-6 text-white" />
                 </div>
