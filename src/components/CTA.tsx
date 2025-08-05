@@ -20,29 +20,29 @@ export default function CTA() {
 
         {/* Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-          ¿Listo para tomar control
-          <span className="block">de tus suscripciones?</span>
+          Ready to take control
+          <span className="block">of your subscriptions?</span>
         </h2>
 
         {/* Subheadline */}
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Únete a miles de usuarios que ya están ahorrando dinero y tiempo.
-          Descarga SubTracker gratis y comienza hoy mismo.
+          Join thousands of users who are already saving money and time.
+          Download SubTracker for free and start today.
         </p>
 
         {/* Benefits List */}
         <div className="flex flex-wrap justify-center gap-6 mb-10 text-white/90">
           <div className="flex items-center">
             <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-            <span>Gratis para siempre</span>
+            <span>Free forever</span>
           </div>
           <div className="flex items-center">
             <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-            <span>Sin tarjeta de crédito</span>
+            <span>No credit card required</span>
           </div>
           <div className="flex items-center">
             <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-            <span>Configuración en 5 minutos</span>
+            <span>5-minute setup</span>
           </div>
         </div>
 
@@ -53,14 +53,14 @@ export default function CTA() {
             className="inline-flex items-center justify-center px-8 py-4 bg-white text-orange-600 font-bold rounded-xl hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             <Download className="mr-2 w-5 h-5" />
-            Descargar Ahora
+            Download Now
           </Link>
 
           <Link
             href="#demo"
             className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-semibold rounded-xl border-2 border-white hover:bg-white hover:text-orange-600 transition-all duration-200"
           >
-            Ver Demo
+            Watch Demo
             <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
         </div>
@@ -79,7 +79,7 @@ export default function CTA() {
                 </svg>
               </div>
               <div>
-                <div className="text-xs">Descargar en</div>
+                <div className="text-xs">Download on</div>
                 <div className="text-sm font-semibold">App Store</div>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function CTA() {
                 </svg>
               </div>
               <div>
-                <div className="text-xs">Disponible en</div>
+                <div className="text-xs">Get it on</div>
                 <div className="text-sm font-semibold">Google Play</div>
               </div>
             </div>

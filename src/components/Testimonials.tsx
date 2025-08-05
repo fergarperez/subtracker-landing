@@ -2,28 +2,28 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María González",
-    role: "Diseñadora Freelance",
+    name: "Maria Gonzalez",
+    role: "Freelance Designer",
     avatar: "👩‍💻",
     rating: 5,
-    text: "SubTracker me ayudó a descubrir que estaba pagando por 3 servicios de streaming que no usaba. Ahorré $45 al mes sin esfuerzo.",
-    highlight: "Ahorré $45 al mes",
+    text: "SubTracker helped me discover I was paying for 3 streaming services I wasn't using. I saved $45 per month effortlessly.",
+    highlight: "Saved $45 per month",
   },
   {
     name: "Carlos Ruiz",
-    role: "Emprendedor",
+    role: "Entrepreneur",
     avatar: "👨‍💼",
     rating: 5,
-    text: "La app es súper intuitiva y los recordatorios me han salvado de varios cargos inesperados. La recomiendo 100%.",
-    highlight: "Súper intuitiva",
+    text: "The app is super intuitive and the reminders have saved me from several unexpected charges. I recommend it 100%.",
+    highlight: "Super intuitive",
   },
   {
-    name: "Ana Martín",
-    role: "Estudiante",
+    name: "Ana Martin",
+    role: "Student",
     avatar: "👩‍🎓",
     rating: 5,
-    text: "Como estudiante, cada euro cuenta. Esta app me ayuda a mantener mis gastos bajo control y nunca más olvido cancelar pruebas gratuitas.",
-    highlight: "Cada euro cuenta",
+    text: "As a student, every dollar counts. This app helps me keep my expenses under control and I never forget to cancel free trials again.",
+    highlight: "Every dollar counts",
   },
 ];
 
@@ -34,14 +34,14 @@ export default function Testimonials() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Lo que dicen
+            What our users
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-              nuestros usuarios
+              are saying
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Miles de personas ya están ahorrando dinero y tiempo con SubTracker.
-            Lee sus experiencias reales.
+            Thousands of people are already saving money and time with
+            SubTracker. Read their real experiences.
           </p>
         </div>
 
@@ -100,14 +100,14 @@ export default function Testimonials() {
           <div className="flex flex-wrap justify-center items-center gap-8 text-gray-500">
             <div className="flex items-center">
               <Star className="w-5 h-5 text-yellow-400 fill-current mr-2" />
-              <span className="font-semibold">4.9/5 en App Store</span>
+              <span className="font-semibold">4.9/5 on App Store</span>
             </div>
             <div className="flex items-center">
               <Star className="w-5 h-5 text-yellow-400 fill-current mr-2" />
-              <span className="font-semibold">4.8/5 en Google Play</span>
+              <span className="font-semibold">4.8/5 on Google Play</span>
             </div>
             <div className="flex items-center">
-              <span className="font-semibold">50,000+ descargas</span>
+              <span className="font-semibold">50,000+ downloads</span>
             </div>
           </div>
         </div>

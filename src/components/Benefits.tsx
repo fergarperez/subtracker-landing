@@ -4,25 +4,25 @@ const benefits = [
   {
     icon: TrendingDown,
     stat: "$127",
-    label: "Ahorro promedio mensual",
+    label: "Average monthly savings",
     description:
-      "Los usuarios ahorran en promedio $127 al mes identificando suscripciones innecesarias.",
+      "Users save an average of $127 per month by identifying unnecessary subscriptions.",
     color: "text-green-600",
   },
   {
     icon: Clock,
     stat: "5 min",
-    label: "Tiempo de configuración",
+    label: "Setup time",
     description:
-      "Configura toda la app y añade tus primeras suscripciones en menos de 5 minutos.",
+      "Configure the entire app and add your first subscriptions in less than 5 minutes.",
     color: "text-blue-600",
   },
   {
     icon: Shield,
     stat: "100%",
-    label: "Datos protegidos",
+    label: "Protected data",
     description:
-      "Encriptación de nivel bancario y cumplimiento total con regulaciones de privacidad.",
+      "Bank-level encryption and full compliance with privacy regulations.",
     color: "text-purple-600",
   },
 ];
@@ -34,15 +34,15 @@ export default function Benefits() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Resultados que
+            Results that
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-              hablan por sí solos
+              speak for themselves
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Miles de usuarios ya están ahorrando dinero y tiempo con SubTracker.
-            Únete a la comunidad que tiene el control total de sus
-            suscripciones.
+            Thousands of users are already saving money and time with
+            SubTracker. Join the community that has complete control of their
+            subscriptions.
           </p>
         </div>
 

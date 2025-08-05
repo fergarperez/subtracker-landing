@@ -15,8 +15,8 @@ export default function Footer() {
               <span className="text-2xl font-bold">SubTracker</span>
             </div>
             <p className="text-gray-400 mb-6">
-              La app móvil que te ayuda a controlar todas tus suscripciones y
-              ahorrar dinero cada mes.
+              The mobile app that helps you control all your subscriptions and
+              save money every month.
             </p>
             <div className="flex space-x-4">
               <a
@@ -60,14 +60,14 @@ export default function Footer() {
 
           {/* Product */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Producto</h3>
+            <h3 className="text-lg font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
               <li>
                 <Link
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Características
+                  Features
                 </Link>
               </li>
               <li>
@@ -75,7 +75,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Precios
+                  Pricing
                 </Link>
               </li>
               <li>
@@ -83,7 +83,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Seguridad
+                  Security
                 </Link>
               </li>
               <li>
@@ -91,7 +91,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Actualizaciones
+                  Updates
                 </Link>
               </li>
             </ul>
@@ -99,14 +99,14 @@ export default function Footer() {
 
           {/* Support */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Soporte</h3>
+            <h3 className="text-lg font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
                 <Link
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Centro de Ayuda
+                  Help Center
                 </Link>
               </li>
               <li>
@@ -114,7 +114,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Contacto
+                  Contact
                 </Link>
               </li>
               <li>
@@ -122,7 +122,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Guías
+                  Guides
                 </Link>
               </li>
               <li>
@@ -138,19 +138,19 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contacto</h3>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-center text-gray-400">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>hola@subtracker.app</span>
+                <span>hello@subtracker.app</span>
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone className="w-4 h-4 mr-2" />
-                <span>+34 900 123 456</span>
+                <span>+1 (555) 123-4567</span>
               </li>
               <li className="flex items-center text-gray-400">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span>Madrid, España</span>
+                <span>San Francisco, CA</span>
               </li>
             </ul>
           </div>
@@ -159,21 +159,20 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} SubTracker. Todos los derechos
-            reservados.
+            © {new Date().getFullYear()} SubTracker. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link
               href="#"
               className="text-gray-400 hover:text-white text-sm transition-colors"
             >
-              Privacidad
+              Privacy
             </Link>
             <Link
               href="#"
               className="text-gray-400 hover:text-white text-sm transition-colors"
             >
-              Términos
+              Terms
             </Link>
             <Link
               href="#"

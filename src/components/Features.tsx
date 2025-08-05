@@ -3,30 +3,30 @@ import { Bell, BarChart3, Shield, Smartphone } from "lucide-react";
 const features = [
   {
     icon: Bell,
-    title: "Recordatorios Inteligentes",
+    title: "Smart Reminders",
     description:
-      "Recibe notificaciones 3, 2 y 1 día antes de cada pago para nunca olvidar una suscripción.",
+      "Receive notifications 3, 2 and 1 day before each payment to never forget a subscription.",
     color: "from-orange-500 to-red-500",
   },
   {
     icon: BarChart3,
-    title: "Análisis Detallado",
+    title: "Detailed Analytics",
     description:
-      "Visualiza tus gastos por categoría y descubre patrones para optimizar tu presupuesto.",
+      "Visualize your expenses by category and discover patterns to optimize your budget.",
     color: "from-amber-500 to-orange-500",
   },
   {
     icon: Smartphone,
-    title: "Diseño Móvil",
+    title: "Mobile Design",
     description:
-      "Interfaz optimizada para móviles con gestos intuitivos y navegación fluida.",
+      "Mobile-optimized interface with intuitive gestures and smooth navigation.",
     color: "from-yellow-500 to-amber-500",
   },
   {
     icon: Shield,
-    title: "Datos Seguros",
+    title: "Secure Data",
     description:
-      "Tus datos están protegidos con encriptación de nivel bancario y nunca compartimos tu información.",
+      "Your data is protected with bank-level encryption and we never share your information.",
     color: "from-orange-600 to-red-600",
   },
 ];
@@ -38,14 +38,14 @@ export default function Features() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Todo lo que necesitas para
+            Everything you need to
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-              controlar tus suscripciones
+              control your subscriptions
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nuestra app móvil te ofrece todas las herramientas necesarias para
-            gestionar tus suscripciones de manera inteligente y eficiente.
+            Our mobile app offers you all the necessary tools to manage your
+            subscriptions intelligently and efficiently.
           </p>
         </div>
 

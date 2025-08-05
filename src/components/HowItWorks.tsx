@@ -4,33 +4,33 @@ const steps = [
   {
     step: "01",
     icon: Download,
-    title: "Descarga la App",
+    title: "Download the App",
     description:
-      "Disponible gratis en App Store y Google Play. Instalación en menos de 30 segundos.",
+      "Available free on App Store and Google Play. Installation in less than 30 seconds.",
     color: "from-orange-500 to-red-500",
   },
   {
     step: "02",
     icon: Plus,
-    title: "Añade tus Suscripciones",
+    title: "Add your Subscriptions",
     description:
-      "Agrega manualmente o conecta tus cuentas bancarias para importar automáticamente.",
+      "Add manually or connect your bank accounts to import automatically.",
     color: "from-amber-500 to-orange-500",
   },
   {
     step: "03",
     icon: Bell,
-    title: "Configura Recordatorios",
+    title: "Set up Reminders",
     description:
-      "Personaliza cuándo y cómo quieres recibir notificaciones de próximos pagos.",
+      "Customize when and how you want to receive notifications for upcoming payments.",
     color: "from-yellow-500 to-amber-500",
   },
   {
     step: "04",
     icon: BarChart3,
-    title: "Analiza y Ahorra",
+    title: "Analyze and Save",
     description:
-      "Revisa tus gastos, identifica suscripciones innecesarias y optimiza tu presupuesto.",
+      "Review your expenses, identify unnecessary subscriptions and optimize your budget.",
     color: "from-orange-600 to-yellow-600",
   },
 ];
@@ -42,14 +42,14 @@ export default function HowItWorks() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Cómo funciona
+            How it works
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-              en 4 pasos simples
+              in 4 simple steps
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comenzar es súper fácil. En menos de 5 minutos tendrás todas tus
-            suscripciones organizadas y bajo control.
+            Getting started is super easy. In less than 5 minutes you&apos;ll
+            have all your subscriptions organized and under control.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className="text-center mt-16">
           <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-xl hover:from-orange-600 hover:to-amber-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
-            Comenzar Ahora - Es Gratis
+            Get Started Now - It&apos;s Free
           </button>
         </div>
       </div>

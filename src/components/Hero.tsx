@@ -21,38 +21,40 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-orange-100 text-orange-800 text-sm font-medium mb-6">
               <Smartphone className="w-4 h-4 mr-2" />
-              Nueva App Móvil Disponible
+              New Mobile App Available
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Controla tus
+              Control your
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-                suscripciones
+                subscriptions
               </span>
-              desde tu móvil
+              from your mobile
             </h1>
 
             {/* Subheadline */}
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              Nunca más olvides un pago. Gestiona todas tus suscripciones,
-              recibe recordatorios inteligentes y ahorra dinero con nuestra app
-              móvil diseñada para la vida moderna.
+              Never forget a payment again. Manage all your subscriptions,
+              receive smart reminders and save money with our mobile app
+              designed for modern life.
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 mb-8">
               <div className="text-center">
                 <div className="text-2xl font-bold text-orange-600">$127</div>
-                <div className="text-sm text-gray-500">Ahorro promedio/mes</div>
+                <div className="text-sm text-gray-500">
+                  Average savings/month
+                </div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-amber-600">98%</div>
-                <div className="text-sm text-gray-500">Pagos a tiempo</div>
+                <div className="text-sm text-gray-500">On-time payments</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-600">50K+</div>
-                <div className="text-sm text-gray-500">Usuarios activos</div>
+                <div className="text-sm text-gray-500">Active users</div>
               </div>
             </div>
 
@@ -62,7 +64,7 @@ export default function Hero() {
                 href="#download"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-xl hover:from-orange-600 hover:to-amber-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
-                Descargar Gratis
+                Download Free
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
 
@@ -70,7 +72,7 @@ export default function Hero() {
                 href="#demo"
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-700 font-semibold rounded-xl border-2 border-gray-200 hover:border-orange-300 hover:bg-orange-50 transition-all duration-200"
               >
-                Ver Demo
+                Watch Demo
               </Link>
             </div>
 
@@ -78,15 +80,15 @@ export default function Hero() {
             <div className="mt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-gray-500">
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                Gratis para siempre
+                Free forever
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                Sin tarjeta de crédito
+                No credit card required
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                Datos seguros
+                Secure data
               </div>
             </div>
           </div>
@@ -112,9 +114,9 @@ export default function Hero() {
                     {/* Header */}
                     <div className="flex justify-between items-center mb-6">
                       <div>
-                        <p className="text-gray-600 text-sm">Buenos días,</p>
+                        <p className="text-gray-600 text-sm">Good morning,</p>
                         <p className="text-gray-900 font-bold text-lg">
-                          María! 👋
+                          Maria! 👋
                         </p>
                       </div>
                       <div className="relative">
@@ -126,7 +128,7 @@ export default function Hero() {
                     {/* Balance Card */}
                     <div className="bg-white rounded-2xl p-6 mb-6 shadow-sm">
                       <p className="text-gray-600 text-sm mb-2">
-                        Gasto mensual
+                        Monthly spending
                       </p>
                       <p className="text-3xl font-bold text-gray-900 mb-2">
                         $89.97
@@ -134,7 +136,7 @@ export default function Hero() {
                       <div className="flex items-center">
                         <TrendingDown className="w-4 h-4 text-green-500 mr-1" />
                         <span className="text-green-500 text-sm font-medium">
-                          15% menos que el mes pasado
+                          15% less than last month
                         </span>
                       </div>
                     </div>
@@ -142,7 +144,7 @@ export default function Hero() {
                     {/* Subscriptions */}
                     <div className="space-y-3">
                       <p className="font-semibold text-gray-900">
-                        Próximos pagos
+                        Upcoming payments
                       </p>
 
                       <div className="bg-white rounded-xl p-4 flex items-center">
@@ -151,7 +153,7 @@ export default function Hero() {
                         </div>
                         <div className="flex-1">
                           <p className="font-medium text-gray-900">Netflix</p>
-                          <p className="text-gray-500 text-sm">Mañana</p>
+                          <p className="text-gray-500 text-sm">Tomorrow</p>
                         </div>
                         <p className="font-bold text-gray-900">$15.99</p>
                       </div>
@@ -162,7 +164,7 @@ export default function Hero() {
                         </div>
                         <div className="flex-1">
                           <p className="font-medium text-gray-900">Spotify</p>
-                          <p className="text-gray-500 text-sm">15 Dic</p>
+                          <p className="text-gray-500 text-sm">Dec 15</p>
                         </div>
                         <p className="font-bold text-gray-900">$9.99</p>
                       </div>
